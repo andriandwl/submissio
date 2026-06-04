@@ -12,7 +12,7 @@ import './styles/style.css'
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
   <Provider store={store}>
-    <BrowserRouter>
+    <BrowserRouter basename="/Discuss">
       <React.StrictMode>
         <App />
       </React.StrictMode>
